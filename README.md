@@ -17,7 +17,7 @@ You also have the option to put another city to display that weather.
 
 
 # Get Weather Screen
-![alt text](https://ibb.co/eHoWW8)
+![alt text](https://preview.ibb.co/nfwUJo/Start_Screen.png)
 
 
 
