@@ -24,3 +24,5 @@ Get Weather Screen
 
 Another Weather Screen
 ![alt text](https://ibb.co/fjf6yo)
+
+Hope you enjoy the app as much as I loved coding it :)
