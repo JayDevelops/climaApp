@@ -11,7 +11,7 @@ You also have the option to put another city to display that weather.
 # Screenshots (Screenies)
 
 Start Screen
-![alt text](https://ibb.co/jakOdo)
+![alt text](https://preview.ibb.co/dB4Ydo/Start_screen_2.png)
 
 
 
