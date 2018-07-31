@@ -10,19 +10,19 @@ You also have the option to put another city to display that weather.
 
 # Screenshots (Screenies)
 
-Start Screen
+# Start Screen
 ![alt text](https://preview.ibb.co/dB4Ydo/Start_screen_2.png)
 
 
 
 
-Get Weather Screen
+# Get Weather Screen
 ![alt text](https://ibb.co/eHoWW8)
 
 
 
 
-Another Weather Screen
+# Another Weather Screen
 ![alt text](https://ibb.co/fjf6yo)
 
 Hope you enjoy the app as much as I loved coding it :)
