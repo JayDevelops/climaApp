@@ -3,7 +3,6 @@
 //  WeatherApp
 //
 //  Created by Angela Yu on 23/08/2015.
-//  Copyright (c) 2015 London App Brewery. All rights reserved.
 //
 
 import UIKit
@@ -60,22 +59,16 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate, Change
     //Write the getWeatherData method here:
     func getWeatherData(url: String, paramaters: [String: String]) {
         
-        //Communicating to the API from the weather API in the background
-        Alamofire.request(url, method: .get, parameters: paramaters).responseJSON   {
-            response in
-            if response.result.isSuccess    {
+        AF.request(url, method: .get, parameters: paramaters).responseJSON { (response) in
+            if (response.value != nil) {
+                print("Sucess! Got the Weather Data which we need!")
                 
-                print("Succes! Got the weather data")
-                let weatherJSON : JSON = JSON(response.result.value!)
-                
-                self.updateWeatherData(json : weatherJSON)
-                
+                let weatherJSON : JSON = JSON(response.value)
+                self.updateWeatherData(json: weatherJSON)
             }   else    {
-                
-                print("Error \(String(describing: response.result.error))")
-                self.cityLabel.text = "Connection Issues"
+                print("Error: \(String(describing: response.value)) has nothing in it")
+                self.cityLabel.text = "There are connection issues, please try again..."
             }
-            
         }
         
     }

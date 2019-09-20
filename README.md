@@ -25,4 +25,3 @@ You also have the option to put another city to display that weather.
 # Another Weather Screen
 ![alt text](https://preview.ibb.co/cUn3do/Get_Weather.png)
 
-Hope you enjoy the app as much as I loved coding it :)
